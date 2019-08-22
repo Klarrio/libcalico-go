@@ -24,6 +24,9 @@
 #   go-tests = true
 #   unused-packages = true
 
+[[constraint]]
+  name = "github.com/projectcalico/libcalico-go"
+  source = "github.com/Klarrio/libcalico-go"
 
 [[constraint]]
   name = "github.com/coreos/etcd"
@@ -44,10 +47,6 @@
 [[constraint]]
   branch = "calico"
   name = "github.com/projectcalico/go-yaml-wrapper"
-
-[[constraint]]
-  name = "github.com/projectcalico/libcalico-go"
-  version = "3.9.0-0.dev"
 
 [[constraint]]
   name = "github.com/satori/go.uuid"
