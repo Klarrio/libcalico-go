@@ -25,10 +25,6 @@
 #   unused-packages = true
 
 [[constraint]]
-  name = "github.com/projectcalico/libcalico-go"
-  source = "github.com/Klarrio/libcalico-go"
-
-[[constraint]]
   name = "github.com/coreos/etcd"
   version = "3.3.8"
 
