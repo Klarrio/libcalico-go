@@ -27,8 +27,7 @@
 [[override]]
   name = "github.com/projectcalico/libcalico-go"
   source = "github.com/Klarrio/libcalico-go"
-  # version = "v3.8.0"
-  revision = "928d2c600ff84817a09cd705e32904116eabfacf"
+  version = "v3.8.0"
 
 [[constraint]]
   name = "github.com/coreos/etcd"
