@@ -24,7 +24,7 @@
 #   go-tests = true
 #   unused-packages = true
 
-[[constraint]]
+[[override]]
   name = "github.com/projectcalico/libcalico-go"
   source = "github.com/Klarrio/libcalico-go"
   version = "v3.8.0"
